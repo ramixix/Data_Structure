@@ -32,15 +32,14 @@ class Linkedlist:
 #   -------------------------------------------------------------------------------------------
 
     def add_node_to_back(self, value):
+        new_node = Node(value)
         if(self.is_list_empty()):
-            new_node = Node(value)
             self.head = new_node
             return
     
         temp = self.head
         while(temp.next_node != None):
             temp= temp.next_node
-        new_node = Node(value)
         temp.next_node = new_node
 
 #   -------------------------------------------------------------------------------------------
