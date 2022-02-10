@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 
-// Worst Case Time Complexity [ Big-O ]: O(n^2)
 // Best Case Time Complexity [Big-omega]: O(n)
+// Worst Case Time Complexity [ Big-O ]: O(n^2)
 // Average Time Complexity [Big-theta]: O(n^2)
+// stable
 
 // method with two for loop
 void insertion_sort(int *arr, int arr_size){
